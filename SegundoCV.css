@@ -1,0 +1,144 @@
+/* ===== ESTILO GERAL ===== */
+body {
+    font-family: Courier; /* Define a fonte como monoespaçada para todo o corpo */
+    color: #ca05ac; /* Cor padrão do texto */
+    background-color: #f2f6fc; /* Define cor de fundo da página */
+    margin: 0; /* Remove margens externas padrão */
+    padding: 0; /* Remove espaçamentos internos padrão */
+    display: flex; /* Ativa o modelo de layout flexível */
+    flex-direction: column; /* Organiza os elementos em coluna */
+    align-items: center; /* Centraliza os elementos horizontalmente */
+}
+
+/* ===== CONTAINER PRINCIPAL ===== */
+.container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    max-width: 900px; /* Limita a largura máxima do container */
+    background: #fff; /* Define fundo branco para destacar conteúdo */
+    border-radius: 10px; /* Bordas arredondadas para estética moderna */
+    overflow: hidden; /* Oculta qualquer conteúdo que ultrapasse o limite */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Aplica sombra para efeito de profundidade */
+    margin-bottom: 20px; /* Espaço inferior entre containers */
+    padding: 10px; /* Espaço interno entre borda e conteúdo */
+}
+
+/* ===== BANNER ===== */
+.banner {
+    width: 100%; /* Ocupa toda a largura do container */
+    height: 200px; /* Altura fixa do banner */
+    background-image: url('/imagem/BLack\ Minimalist\ Corporate\ Staff\ Identity\ LinkedIn\ Banner.png'); /* Caminho para a imagem do banner */
+    background-size: cover; /* Faz a imagem preencher todo o espaço disponível */
+    background-position: center; /* Centraliza a imagem no banner */
+    position: relative; /* Permite posicionamento absoluto de elementos internos (como a foto de perfil) */
+}
+
+/* ===== FOTO DE PERFIL ===== */
+.FotoPerfil {
+    width: 130px; /* Largura fixa da imagem de perfil */
+    height: 130px; /* Altura fixa da imagem de perfil */
+    border-radius: 50%; /* Transforma a imagem em um círculo */
+    border: 4px solid #ffffff; /* Adiciona borda branca */
+    position: absolute; /* Permite posicionar a foto sobre o banner */
+    bottom: -65px; /* Faz a foto ficar parcialmente fora do banner */
+    left: 20px; /* Define distância da margem esquerda */
+    background: #fff; /* Fundo branco atrás da imagem */
+    overflow: hidden; /* Garante que a imagem não ultrapasse os limites circulares */
+}
+
+.FotoPerfil img {
+    width: 100%; /* Faz a imagem ocupar toda a largura da área */
+    height: 100%; /* Faz a imagem ocupar toda a altura da área */
+    object-fit: cover; /* Ajusta a imagem sem distorção */
+}
+
+/* ===== DETALHES DO PERFIL ===== */
+.detalhes {
+    padding: 80px 20px 20px 20px; /* Espaço interno, com destaque para o topo para acomodar a foto */
+}
+
+.detalhes h1 {
+    margin: 0; /* Remove margens padrão */
+    font-size: 24px; /* Define tamanho da fonte do nome */
+}
+
+.detalhes p {
+    color: #000000; /* Cor do texto (preto) */
+    font-family: Courier; /* Mantém estilo monoespaçado */
+    font-size: 18px; /* Tamanho da fonte para descrição */
+    margin-top: 8px; /* Espaço entre nome e descrição */
+}
+
+/* ===== SEÇÃO SOBRE ===== */
+.Sobre {
+    width: 90%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 18px;
+    color: #000;
+}
+
+.Sobre h2 {
+    color: #ca05ac;
+    margin-bottom: 10px;
+}
+
+/* ===== MEDIA QUERIES ===== */
+
+    .Sobre p {
+        padding: 10px;
+        font-size: 14px;
+    }
+
+
+/* ===== SEÇÃO LATERAL (IDIOMA E URL) ===== */
+.Idioma-Link {
+       width: 90%;
+    max-width: 800px;
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    font-size: 18px;
+    color: #ca05ac;
+}
+
+.Idioma-Link h3 {
+    margin: 10px 0 5px; /* Margens específicas para títulos */
+    color: #000; /* Cor preta para destaque */
+}
+
+.Idioma-Link a {
+    text-decoration: none; /* Remove sublinhado padrão dos links */
+    color: #0073b1; /* Azul semelhante ao padrão LinkedIn */
+}
+
+.Idioma-Link p {
+    font-size: 20px; /* Texto maior para destacar conteúdo */
+}
+
+/* ===== FORMAÇÃO ACADÊMICA ===== */
+.Formacao-Academica {
+    width: 100%; /* Ocupa toda a largura possível */
+    max-width: 800px; /* Limita largura */
+    background: #fff; /* Fundo branco */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    margin-bottom: 20px; /* Espaço entre seções */
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); /* Efeito sombra */
+    font-size: 18px; /* Tamanho padrão da fonte */
+}
+
+.Formacao-Academica p strong {
+    font-size: 18px; /* Destaque para texto em negrito */
+    color: #ca05ac; /* Cor personalizada para títulos */
+}
+
+.Formacao-Academica p {
+    font-size: 18px; /* Tamanho do texto normal */
+    color: #000000; /* Cor preta */
+}
