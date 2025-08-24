@@ -26,7 +26,7 @@ body {
 .banner {
     width: 100%; /* Ocupa toda a largura do container */
     height: 200px; /* Altura fixa do banner */
-    background-image: url('/imagem/BLack\ Minimalist\ Corporate\ Staff\ Identity\ LinkedIn\ Banner.png'); /* Caminho para a imagem do banner */
+    background-image: url('https://github.com/Eduardo-Taveira/Segundo-CV/blob/main/BLack%20Minimalist%20Corporate%20Staff%20Identity%20LinkedIn%20Banner.png?raw=true'); /* Caminho para a imagem do banner */
     background-size: cover; /* Faz a imagem preencher todo o espaço disponível */
     background-position: center; /* Centraliza a imagem no banner */
     position: relative; /* Permite posicionamento absoluto de elementos internos (como a foto de perfil) */
@@ -142,3 +142,4 @@ body {
     font-size: 18px; /* Tamanho do texto normal */
     color: #000000; /* Cor preta */
 }
+
